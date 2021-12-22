@@ -1,4 +1,4 @@
---Заполнение жанров (5 жанров):
+--Р—Р°РїРѕР»РЅРµРЅРёРµ Р¶Р°РЅСЂРѕРІ (5 Р¶Р°РЅСЂРѕРІ):
 
 INSERT INTO Genres
 	VALUES(DEFAULT, 'Rock');
@@ -16,7 +16,7 @@ INSERT INTO Genres
 	VALUES(DEFAULT, 'Jazz');
 
 
--- Заполнение исполнителей (8 исполнителей):
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ РёСЃРїРѕР»РЅРёС‚РµР»РµР№ (8 РёСЃРїРѕР»РЅРёС‚РµР»РµР№):
 
 INSERT INTO Singers
 	VALUES(DEFAULT, 'Sin Shake Sin');
@@ -43,7 +43,7 @@ INSERT INTO Singers
 	VALUES(DEFAULT, 'A-ha');
 
 
--- Заполнение связей жанр-исполнитель:
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ СЃРІСЏР·РµР№ Р¶Р°РЅСЂ-РёСЃРїРѕР»РЅРёС‚РµР»СЊ:
 
 INSERT INTO GenresSingers
 	VALUES(DEFAULT, 1, 1);
@@ -70,7 +70,7 @@ INSERT INTO GenresSingers
 	VALUES(DEFAULT, 3, 8);
 
 
--- Заполнение альбомов (8 альбомов):
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ Р°Р»СЊР±РѕРјРѕРІ (8 Р°Р»СЊР±РѕРјРѕРІ):
 
 INSERT INTO Albums
 	VALUES(DEFAULT, 'Lunatics And Slaves', 2014, 'tracklist');
@@ -97,7 +97,7 @@ INSERT INTO Albums
 	VALUES(DEFAULT, 'Hunting High And Low', 1985, 'tracklist');
 
 
--- Заполнение связей исполнитель-альбом:
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ СЃРІСЏР·РµР№ РёСЃРїРѕР»РЅРёС‚РµР»СЊ-Р°Р»СЊР±РѕРј:
 
 INSERT INTO SingersAlbums
 	VALUES(DEFAULT, 1, 1);
@@ -124,7 +124,7 @@ INSERT INTO SingersAlbums
 	VALUES(DEFAULT, 8, 8);
 
 
--- Заполнение треков (16 треков):
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ С‚СЂРµРєРѕРІ (16 С‚СЂРµРєРѕРІ):
 
 INSERT INTO Tracks
 	VALUES(DEFAULT, 'Lunatics And Slaves', 192, 1);
@@ -175,7 +175,7 @@ INSERT INTO Tracks
 	VALUES(DEFAULT, 'The Sun Always Shines On TV', 302, 8);
 
 
--- Заполнение сборников (8 сборников):
+-- Р—Р°РїРѕР»РЅРµРЅРёРµ СЃР±РѕСЂРЅРёРєРѕРІ (8 СЃР±РѕСЂРЅРёРєРѕРІ):
 
 INSERT INTO Collections
 	VALUES(DEFAULT, 'EVEN the chances', 2014);
@@ -202,7 +202,7 @@ INSERT INTO Collections
 	VALUES(DEFAULT, 'ALPHA and OMEGA', 1985);
 
 
---  Заполнение связей трек-сборник:
+--  Р—Р°РїРѕР»РЅРµРЅРёРµ СЃРІСЏР·РµР№ С‚СЂРµРє-СЃР±РѕСЂРЅРёРє:
 
 INSERT INTO TracksCollections
 	VALUES(DEFAULT, 1, 2);
