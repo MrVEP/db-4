@@ -1,4 +1,4 @@
---Заполнение жанры(5 жанров):
+--Заполнение жанров (5 жанров):
 
 INSERT INTO Genres
 	VALUES(DEFAULT, 'Rock');
